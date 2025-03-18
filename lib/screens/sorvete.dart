@@ -18,7 +18,7 @@ class _SorveteScreenState extends State<SorveteScreen> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
         title: Text(
-          'HAMBURGER',
+          'SORVETE',
           style: TextStyle(letterSpacing: 2, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -66,7 +66,7 @@ class _SorveteScreenState extends State<SorveteScreen> {
           Expanded(
             child: FoodCard(
               imagePath: 'assets/img/sorvete.png',
-              title: 'Ice Cream',
+              title: 'Sorvete',
               subtitle: 'Vanilla Ice Cream',
               calories: '210Cal',
               times: ['31min', '25min', '41min'],

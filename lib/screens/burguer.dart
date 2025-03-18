@@ -18,7 +18,7 @@ class _BurguerScreenState extends State<BurguerScreen> {
       appBar: AppBar(
         backgroundColor: Colors.orange,
         title: Text(
-          'HOW TO BURN OFF',
+          'HAMBURGER',
           style: TextStyle(letterSpacing: 2, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -66,7 +66,7 @@ class _BurguerScreenState extends State<BurguerScreen> {
           Expanded(
             child: FoodCard(
               imagePath: 'assets/img/burger.png',
-              title: 'Burger',
+              title: 'Hamburger',
               subtitle: 'McDonald\'s Big Mac',
               calories: '560Cal',
               times: ['112min', '69min', '61min'],

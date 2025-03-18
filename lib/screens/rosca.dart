@@ -18,7 +18,7 @@ class _RoscaScreenState extends State<RoscaScreen> {
       appBar: AppBar(
         backgroundColor: Colors.pink,
         title: Text(
-          'HOW TO BURN OFF',
+          'ROSQUINHA',
           style: TextStyle(letterSpacing: 2, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -66,7 +66,7 @@ class _RoscaScreenState extends State<RoscaScreen> {
           Expanded(
             child: FoodCard(
               imagePath: 'assets/img/rosca.png',
-              title: 'Dunkin Donut',
+              title: 'Donut',
               subtitle: 'Strawberry Frosted',
               calories: '420Cal',
               times: ['47min', '45min', '44min'],
